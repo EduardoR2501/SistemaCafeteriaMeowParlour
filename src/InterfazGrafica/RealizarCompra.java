@@ -344,7 +344,7 @@ public class RealizarCompra extends javax.swing.JFrame {
             pstFactura.setString(1, FieldNIT.getText());
             pstFactura.setString(2, FieldNombre.getText());
             pstFactura.setString(3, FieldDireccion.getText());
-            pstFactura.setDouble(4, Double.parseDouble(FieldSubtotal.getText().substring(23)));
+            pstFactura.setDouble(4, Double.parseDouble(FieldSubtotal.getText().substring(19)));////////
             pstFactura.setDouble(5, Double.parseDouble(FieldIVA.getText().substring(5)));
             pstFactura.setDouble(6, Double.parseDouble(FieldTotal.getText().substring(7)));
             pstFactura.executeUpdate();
